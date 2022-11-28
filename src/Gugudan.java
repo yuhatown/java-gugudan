@@ -1,8 +1,8 @@
 public class Gugudan {
 	
-	public static int[] calculate(int times) {
-		int[] result = new int[9];
-		for(int i = 0; i < result.length; i++) {
+	public static int[] calculate(int times, int number) {
+		int[] result = new int[number];
+		for(int i=0; i < number; i++) {
 			result[i] = times * (i+1);
 	}
 		return result;
