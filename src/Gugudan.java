@@ -1,4 +1,3 @@
-
 public class Gugudan {
 	
 	public static int[] calculate(int times) {
@@ -14,6 +13,4 @@ public class Gugudan {
 			System.out.println(result[i]);		
 		}
 	}
-	
-
 }
