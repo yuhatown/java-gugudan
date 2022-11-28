@@ -15,11 +15,5 @@ public class Gugudan {
 		}
 	}
 	
-	public static void main(String args[]) {
-		int[] result = calculate(2);
-		print(result);
-		
-		result = calculate(3);
-		print(result);
-	}
+
 }
